@@ -1,0 +1,36 @@
+{
+  "name": "vuex-orm-plugin-json-api",
+  "version": "0.0.1",
+  "description": "Vuex-ORM persistence plugin to sync the store against a JSON API",
+  "main": "dist/vuex-orm-json-api.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godfather27/vuex-orm-plugin-json-api.git"
+  },
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "vuex-plugin",
+    "orm",
+    "vuex-orm",
+    "vuex-orm-plugin",
+    "json-api"
+  ],
+  "author": "Sebastian Huber",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "vuepress": "^0.14.9",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
